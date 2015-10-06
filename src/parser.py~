@@ -1,0 +1,16 @@
+import xml.etree.ElementTree as ET
+
+#Reads the XML file and gets the required output
+def parser():
+	tree = ET.parse('out.xml')
+	root = tree.getroot()
+	text_arr = []
+	for tag in root.iter('hyp'):
+		print('Hi')
+		text_1 = tag.text;
+		text_1= text_1.replace('"','')
+		clean_text = text_1.replace('\n','')
+		clean_text = clean_text.split()
+		clean_text = [clean_text[i].split(',') for i in range(len(clean_text))]
+		text_arr.append(clean_text)
+	return text_arr

@@ -1,0 +1,82 @@
+digraph FST {
+rankdir = LR;
+size = "8.5,11";
+label = "";
+center = 1;
+orientation = Landscape;
+ranksep = "0.4";
+nodesep = "0.25";
+0 [label = "0", shape = circle, style = bold, fontsize = 14]
+	0 -> 1 [label = "school:school/1", fontsize = 14];
+	0 -> 6 [label = "school:school/1", fontsize = 14];
+	0 -> 11 [label = "school:school/1", fontsize = 14];
+	0 -> 23 [label = "school:school/1", fontsize = 14];
+	0 -> 7 [label = "school:school/1", fontsize = 14];
+	0 -> 4 [label = "school:school/2", fontsize = 14];
+	0 -> 25 [label = "school:school/1", fontsize = 14];
+	0 -> 27 [label = "school:school/1", fontsize = 14];
+1 [label = "1", shape = circle, style = solid, fontsize = 14]
+	1 -> 28 [label = ".:./8", fontsize = 14];
+2 [label = "2", shape = circle, style = solid, fontsize = 14]
+	2 -> 3 [label = "go:go/1", fontsize = 14];
+3 [label = "3", shape = circle, style = solid, fontsize = 14]
+	3 -> 0 [label = "to:to/9", fontsize = 14];
+4 [label = "4", shape = circle, style = solid, fontsize = 14]
+	4 -> 5 [label = "for:for/1", fontsize = 14];
+	4 -> 16 [label = "for:for/1", fontsize = 14];
+5 [label = "5", shape = circle, style = solid, fontsize = 14]
+	5 -> 1 [label = "learning:learning/2", fontsize = 14];
+6 [label = "6", shape = circle, style = solid, fontsize = 14]
+	6 -> 12 [label = "to:to/1", fontsize = 14];
+7 [label = "7", shape = circle, style = solid, fontsize = 14]
+	7 -> 5 [label = "and:and/1", fontsize = 14];
+8 [label = "8", shape = circle, style = solid, fontsize = 14]
+	8 -> 9 [label = "<eps>:<eps>/1", fontsize = 14];
+	8 -> 18 [label = "<eps>:<eps>/1", fontsize = 14];
+	8 -> 14 [label = "<eps>:<eps>/7", fontsize = 14];
+9 [label = "9", shape = circle, style = solid, fontsize = 14]
+	9 -> 13 [label = "i'm:i'm/1", fontsize = 14];
+10 [label = "10", shape = circle, style = solid, fontsize = 14]
+	10 -> 3 [label = "went:went/1", fontsize = 14];
+11 [label = "11", shape = circle, style = solid, fontsize = 14]
+	11 -> 19 [label = "to:to/1", fontsize = 14];
+12 [label = "12", shape = circle, style = solid, fontsize = 14]
+	12 -> 1 [label = "learn:learn/1", fontsize = 14];
+13 [label = "13", shape = circle, style = solid, fontsize = 14]
+	13 -> 3 [label = "going:going/4", fontsize = 14];
+14 [label = "14", shape = circle, style = solid, fontsize = 14]
+	14 -> 15 [label = "i:i/1", fontsize = 14];
+	14 -> 13 [label = "i:i/1", fontsize = 14];
+	14 -> 20 [label = "i:i/1", fontsize = 14];
+	14 -> 21 [label = "i:i/1", fontsize = 14];
+	14 -> 2 [label = "i:i/1", fontsize = 14];
+	14 -> 10 [label = "i:i/1", fontsize = 14];
+	14 -> 26 [label = "i:i/1", fontsize = 14];
+15 [label = "15", shape = circle, style = solid, fontsize = 14]
+	15 -> 3 [label = "go:go/1", fontsize = 14];
+16 [label = "16", shape = circle, style = solid, fontsize = 14]
+	16 -> 1 [label = "training:training/1", fontsize = 14];
+17 [label = "17", shape = circle, style = solid, fontsize = 14]
+	17 -> 1 [label = "learn:learn/1", fontsize = 14];
+18 [label = "18", shape = circle, style = solid, fontsize = 14]
+	18 -> 13 [label = "i'm:i'm/1", fontsize = 14];
+19 [label = "19", shape = circle, style = solid, fontsize = 14]
+	19 -> 1 [label = "learn:learn/1", fontsize = 14];
+20 [label = "20", shape = circle, style = solid, fontsize = 14]
+	20 -> 3 [label = "go:go/1", fontsize = 14];
+21 [label = "21", shape = circle, style = solid, fontsize = 14]
+	21 -> 3 [label = "went:went/1", fontsize = 14];
+22 [label = "22", shape = circle, style = solid, fontsize = 14]
+	22 -> 1 [label = "learn:learn/1", fontsize = 14];
+23 [label = "23", shape = circle, style = solid, fontsize = 14]
+	23 -> 24 [label = "to:to/1", fontsize = 14];
+24 [label = "24", shape = circle, style = solid, fontsize = 14]
+	24 -> 1 [label = "learn:learn/1", fontsize = 14];
+25 [label = "25", shape = circle, style = solid, fontsize = 14]
+	25 -> 22 [label = "to:to/1", fontsize = 14];
+26 [label = "26", shape = circle, style = solid, fontsize = 14]
+	26 -> 13 [label = "was:was/1", fontsize = 14];
+27 [label = "27", shape = circle, style = solid, fontsize = 14]
+	27 -> 17 [label = "to:to/1", fontsize = 14];
+28 [label = "28", shape = circle, style = solid, fontsize = 14]
+}

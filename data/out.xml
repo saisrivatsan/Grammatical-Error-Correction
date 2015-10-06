@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<system title="Byblos" hyp_fname="data/hyp.txt" ref_fname="data/ref.txt" creation_date="04:56:06, Tue, 10 06 2015" case_sense="0">
+<tstset setid="" srclang="" trglang="">
+  <doc docid="">
+    <seg segid="1">
+      <hyp id="1" refid="" wrd_cnt="7.0" num_errs="2.0">
+        "i","i",C,0
+        "","was",I,0
+        "going","going",C,0
+        "to","to",C,0
+        "school","school",C,0
+        "for","and",S,0
+        "learning","learning",C,0
+        ".",".",C,0
+      </hyp>
+    </seg>
+    <seg segid="2">
+      <hyp id="1" refid="" wrd_cnt="7.0" num_errs="3.0">
+        "i","i",C,0
+        "going","go",S,0
+        "to","to",C,0
+        "school","school",C,0
+        "for","to",S,0
+        "learning","learn",S,0
+        ".",".",C,0
+      </hyp>
+    </seg>
+    <seg segid="3">
+      <hyp id="1" refid="" wrd_cnt="7.0" num_errs="3.0">
+        "i","i",C,0
+        "going","go",S,0
+        "to","to",C,0
+        "school","school",C,0
+        "for","to",S,0
+        "learning","learn",S,0
+        ".",".",C,0
+      </hyp>
+    </seg>
+    <seg segid="4">
+      <hyp id="1" refid="" wrd_cnt="7.0" num_errs="3.0">
+        "i","i'm",S,0
+        "going","going",C,0
+        "to","to",C,0
+        "school","school",C,0
+        "for","to",S,0
+        "learning","learn",S,0
+        ".",".",C,0
+      </hyp>
+    </seg>
+    <seg segid="5">
+      <hyp id="1" refid="" wrd_cnt="7.0" num_errs="3.0">
+        "i","i",C,0
+        "going","go",S,0
+        "to","to",C,0
+        "school","school",C,0
+        "for","to",S,0
+        "learning","learn",S,0
+        ".",".",C,0
+      </hyp>
+    </seg>
+    <seg segid="6">
+      <hyp id="1" refid="" wrd_cnt="7.0" num_errs="3.0">
+        "i","i",C,0
+        "going","went",S,0
+        "to","to",C,0
+        "school","school",C,0
+        "for","to",S,0
+        "learning","learn",S,0
+        ".",".",C,0
+      </hyp>
+    </seg>
+    <seg segid="7">
+      <hyp id="1" refid="" wrd_cnt="7.0" num_errs="3.0">
+        "i","i",C,0
+        "going","went",S,0
+        "to","to",C,0
+        "school","school",C,0
+        "for","",D,0
+        "learning","",D,0
+        ".",".",C,0
+      </hyp>
+    </seg>
+    <seg segid="8">
+      <hyp id="1" refid="" wrd_cnt="7.0" num_errs="2.0">
+        "i","i'm",S,0
+        "going","going",C,0
+        "to","to",C,0
+        "school","school",C,0
+        "for","for",C,0
+        "learning","training",S,0
+        ".",".",C,0
+      </hyp>
+    </seg>
+  </doc>
+</tstset>
+</system>
